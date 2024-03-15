@@ -1,8 +1,9 @@
 
 .container{
-  background: LightGray; 
+  background: #e7ecef; 
   margin: auto;
   width: 100%;
+  padding-bottom: 25px;
 }
 
 .header{
@@ -24,33 +25,33 @@ h1{
     float: center;
 }
 
-.frame1{
+.frame{
     width: 400px;
     margin: auto;
+    margin-top: 15px;
     display: block;
     background:white;
     height: 320px;
-    border:1px solid black;
 }
-.frame1-header{
+.frame-header{
     width: 400px;
     display: flex;
     height: 25px;
-    border:1px solid black;
 }
 
 .info-photo{
     padding-left: 5px;
+    color:#bc6c25
 }
 .Photo-number {
     padding-top: 3px;
     padding-left:250px;
+    color:#274c77
 }
 
-.frame1-body{
+.frame-body{
     width: 400px;
     height: 250px;
-    border:1px solid black;
 }
 
 img{
@@ -58,8 +59,11 @@ img{
     height: 250px;
 }
 
-.frame1-footer{
+.frame-footer{
     width: 400px;
     height: 28px;
     padding-left: 5px;
+    padding-right: 5px;
+    color:#734B1A
+   
 }
