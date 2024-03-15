@@ -1,7 +1,65 @@
-body{
-    background: black;
+
+.container{
+  background: LightGray; 
+  margin: auto;
+  width: 100%;
+}
+
+.header{
+    height: 50px;
+    margin-top: 0px;
+    background: white;
+    padding-left: 480px;
+    padding-top: 10px;
+    float: center;
+    
 }
 
 h1{
-    color:red;
+    color: brown;
+    display: inline;
+    align-items: center;
+    padding-left: 100px;
+    align-items: center;
+    float: center;
+}
+
+.frame1{
+    width: 400px;
+    margin: auto;
+    display: block;
+    background:white;
+    height: 320px;
+    border:1px solid black;
+}
+.frame1-header{
+    width: 400px;
+    display: flex;
+    height: 25px;
+    border:1px solid black;
+}
+
+.info-photo{
+    padding-left: 5px;
+}
+.Photo-number {
+    padding-top: 3px;
+    padding-left:250px;
+}
+
+.frame1-body{
+    width: 400px;
+    height: 250px;
+    border:1px solid black;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+.frame1-footer{
+    width: 400px;
+    height: 28px;
+    padding-left: 5px;
 }
